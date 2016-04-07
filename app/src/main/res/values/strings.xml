@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FloraSearch</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="naziv_zbirke">Zbirka</string>
+    <string-array name="naziv_zbirke_popis">
+        <item value="3">CNHM Herbarium of Croatian Natural History Museum</item>
+        <item>Domenico Pappafava Herbarium</item>
+        <item>Herbarium Alumnorum</item>
+        <item>LJU University of Ljubljana</item>
+        <item>PAD Herbarium Patavinum</item>
+        <item>Šoštarić R. Herbarium</item>
+        <item>W Naturhistorische Museum Wien</item>
+        <item>WU Universität Wien</item>
+        <item>ZA Herbarium Croaticum</item>
+        <item>ZAGR – Herbarium Facultatis Agronomiae</item>
+        <item>ZAHO Herbarium Ive i Marije Horvat</item>
+    </string-array>
+
+    <string name="sa_slikom"></string>
+    <string-array name="sa_slikom_opcije">
+        <item></item>
+        <item>Da</item>
+        <item>Ne</item>
+    </string-array>
+
+    <string name="tip_primjerka"></string>
+    <string-array name="tip_primjerka_array">
+        <item></item>
+        <item>Svi</item>
+        <item>holotypus</item>
+        <item>isotypus</item>
+        <item>lectotypus</item>
+        <item>neotypus</item>
+        <item>syntypus</item>
+    </string-array>
+
+    <string name="zemlja"></string>
+    <string-array name="zemlja_array">
+        <item></item>
+        <item>Croatia</item>
+        <item>Afghanistan</item>
+        <item>Alabama</item>
+        <item>Bulgaria</item>
+    </string-array>
+</resources>
