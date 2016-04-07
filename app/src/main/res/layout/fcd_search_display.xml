@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/prvi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Podrazred" />
+
+                    <TextView
+                        android:id="@+id/drugi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nadrazred" />
+
+                    <TextView
+                        android:id="@+id/treci"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Red" />
+
+                    <TextView
+                        android:id="@+id/cetvrti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Porodica" />
+
+                    <TextView
+                        android:id="@+id/peti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rod" />
+
+                    <TextView
+                        android:id="@+id/sesti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Latinsko ime vrste" />
+
+                    <TextView
+                        android:id="@+id/sedmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Narodno ime" />
+
+                    <TextView
+                        android:id="@+id/osmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sinonim" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/PodrazredInput"
+                        android:layout_width="@dimen/edit_text_width"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/NadrazredInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/RedInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/PorodicaInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/RodInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/LatImeInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/NarodnoImeInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                    <EditText
+                        android:id="@+id/SinonimInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_text_height"
+                        android:background="@drawable/edit_text_design" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sa slikom" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Endem" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sporna" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Korov" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="U kulturi" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/FCDSearchButton"
+                    android:layout_column="2"
+                    android:text="Search" />
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
