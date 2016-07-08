@@ -5,4 +5,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="edit_text_height">35dp</dimen>
     <dimen name="edit_text_width">100dp</dimen>
+    <dimen name="herbar_result_width">70dp</dimen>
+    <dimen name="param_height">35dp</dimen>
+    <dimen name="param_width">120dp</dimen>
 </resources>
